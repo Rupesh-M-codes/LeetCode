@@ -1,6 +1,6 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        Arrays.sort(nums);
+        
         boolean result = false;
         HashMap<Integer,Integer> map = new HashMap<>();
         for(int digit : nums){
